@@ -1,5 +1,5 @@
 baseurl = "https://lpirola13.github.io"
-title = "Lorenzo Pirola--" # Site title.
+title = "Lorenzo Pirola" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
 defaultcontentlanguage = "en" # The default content language.
