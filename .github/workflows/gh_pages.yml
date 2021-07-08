@@ -25,10 +25,7 @@ jobs:
       run: rm -rf public
 
     - name: Build
-      run: hugo --theme=fresh
-
-    - name: Create cname file
-      run: echo 'freshswift.net' > public/CNAME
+      run: hugo --theme=coder-portfolio
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
