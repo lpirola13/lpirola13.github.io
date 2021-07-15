@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">
+          {{ with .Site.Params.logo }}
+            <img src="{{ . | absURL }}" alt="logo">
+          {{ end }}
+          <span style="font-family:Nunito; font-weight:700; color:black;">
+          LORENZO
+          </span>
+          <span style="font-family:Nunito; font-weight:400; color:black;">
+           PIROLA
+          </span>
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            {{ with .Site.Menus.main }}
+                {{ $navbar_len := len . }}
+                {{ range $i, $nav_item := . }}
+                    <a class="nav-item nav-link" style="color:black;" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+                      <span style="font-family:Nunito; font-weight:600; color:black; font-size=1px;">
+                        {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
+                      </span>
+                    </a>
+
+                {{ end }}
+            {{ end }}
+        </div>
+    </nav>
+</div>
+<hr>
