@@ -29,19 +29,19 @@ googleAnalytics = ""  # add your tracking id
 
 [menu]
   [[menu.main]]
-    name = "EXPERIENCE"
+    name = "EXPERIENCE "
     url = "#experience"
     weight = 1
   [[menu.main]]
-    name = "EDUCATION"
+    name = "EDUCATION "
     url = "#education"
     weight = 2
   [[menu.main]]
-    name = "PROJECTS"
+    name = "PROJECTS "
     url = "#projects"
     weight = 3
   [[menu.main]]
-    name = "CONTACTS"
+    name = "CONTACTS "
     url = "#contacts"
     weight = 4
 
