@@ -1,4 +1,4 @@
-title = "Lorenzo Pirola"
+title = "LORENZO PIROLA"
 baseURL = "https://lpirola13.github.io"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
@@ -12,7 +12,7 @@ googleAnalytics = ""  # add your tracking id
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "Made with Hugo - Theme By Olivier Roques"
+    text = "Made with Hugo - Theme By Olivier Roques. Last update July 15th, 2021"
     url = "https://github.com/ojroques/hugo-researcher"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
@@ -26,19 +26,19 @@ googleAnalytics = ""  # add your tracking id
 
 [menu]
   [[menu.main]]
-    name = "Experience"
+    name = "EXPERIENCE"
     url = "#experience"
     weight = 1
   [[menu.main]]
-    name = "Education"
+    name = "EDUCATION"
     url = "#education"
     weight = 2
   [[menu.main]]
-    name = "Projects"
+    name = "PROJECTS"
     url = "#projects"
     weight = 3
   [[menu.main]]
-    name = "Contacts"
+    name = "CONTACTS"
     url = "#contacts"
     weight = 4
 
