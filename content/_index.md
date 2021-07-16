@@ -12,13 +12,6 @@ title = "Lorenzo Pirola"
   <img src="avatar.jpg" width=150px" style="border-radius:50%" />
   <h2 style="text-align: center;"><span style="font-family:Nunito; font-weight:400; color:black;">HI, I'M LORENZO PIROLA</span></h2>
 </p>
-<p align="center">
-<span style="font-family:Nunito; font-weight:400; color:black;">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum
-ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio
-pharetra quis[^1]. Mauris id urna ante.
-</span>
-</p>
 <br>
 <hr width="75%">
 
