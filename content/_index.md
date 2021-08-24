@@ -64,6 +64,10 @@ title = "Lorenzo Pirola"
 <br>
 <span style="font-family:Nunito; font-weight:400; color:black;">Final grade: 94/100</span>
 
+<span style="font-family:Nunito; font-weight:200; color:black;">FIRST CERTIFICATE IN ENGLISH - B2</span>
+<br>
+<span style="font-family:Nunito; font-weight:400; color:black;">Cambridge Assessment English | 2016</span>
+
 <br>
 
 <hr width="75%">
