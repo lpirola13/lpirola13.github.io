@@ -17,11 +17,10 @@ title = "Lorenzo Pirola"
 <br>
 
 
-<a id="experience" style="text-decoration: none;" >
+<a id="experience" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">EXPERIENCE</span>
   </h1>
-</a>
 
 <hr width="75%" style="
 border: 0;
@@ -45,11 +44,11 @@ border: 0;
 <br>
 
 
-<a id="education" style="text-decoration: none; color:white;">
+<a id="education" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">EDUCATION</span>
   </h1>
-</a>
+
 
 <hr width="75%" style="
 border: 0;
@@ -93,11 +92,10 @@ border: 0;
 <br>
 
 
-<a id="projects" style="text-decoration: none; color:white;">
+<a id="projects" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">PROJECTS</span>
   </h1>
-</a>
 
 <hr width="75%" style="
 border: 0;
@@ -169,11 +167,10 @@ border: 0;
 <br>
 
 
-<a id="contacts" style="text-decoration: none; color:white;">
+<a id="contacts" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">CONTACTS</span>
   </h1>
-</a>
 
 <hr width="75%" style="
 border: 0;
