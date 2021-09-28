@@ -1,13 +1,10 @@
-    <div class="row pl-5 pt-4 pr-4">
+    <div class="row pl-3 pt-4 pr-3 w-100 mx-auto">
       <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0 w-100">
         <a class="navbar-brand mx-0 mr-sm-auto" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">
-          {{ with .Site.Params.logo }}
-            <img src="{{ . | absURL }}" alt="logo">
-          {{ end }}
           <span style="font-family:Source Code Pro; font-weight:600; color:white;">
           LORENZO
           </span>
-          <span style="font-family:Source Code Pro; font-weight:400; color:white;">
+          <span style="font-family:Source Code Pro; font-weight:300; color:white;">
            PIROLA
           </span>
         </a>
@@ -16,7 +13,7 @@
                 {{ $navbar_len := len . }}
                 {{ range $i, $nav_item := . }}
                     <a style="color:white;" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
-                      <span style="font-family:Source Code Pro; font-weight:600; color:white; font-size=1px;">
+                      <span style="font-family:Source Code Pro; font-weight:300; color:white; font-size=1px;">
                         {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
                       </span>
                     </a>
