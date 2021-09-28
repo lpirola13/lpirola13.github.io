@@ -1,0 +1,17 @@
+<div class="mb-5 w-100">
+    <hr class="w-100" style="
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
+
+    <div class="container text-center">
+        {{ range $item := .Site.Params.socialIcons }}
+            <a style="color:white;" href="{{ $item.url }}" class="{{ $item.icon }} fa-1x" title="{{ $item.title }}"></a>
+        {{ end }}
+    </div>
+    {{ with .Site.Params.footer }}
+        <div class="container text-center">
+            <a href="{{ .url | absURL }}" title="{{ .text }}" ><small style="color:white; font-family:Source Code Pro; font-weight:300;">{{ .text }}</small></a>
+        </div>
+    {{ end }}
+</div>

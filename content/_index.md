@@ -3,9 +3,6 @@ title = "Lorenzo Pirola"
 +++
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
-  background-color: #ddd6f3; /* fallback for old browsers */
-  background-image: -webkit-linear-gradient(to right, #ddd6f3, #faaca8); /* Chrome 10-25, Safari 5.1-6 */
-  background-image: linear-gradient(to right, #ddd6f3, #faaca8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 </style>
 
 <br>
@@ -108,7 +105,7 @@ border: 0;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 <a href="https://github.com/lpirola13/EasySport-Understanding" style=" color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">EASYSPORT-UNDERSTANDING</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">EASYSPORT-UNDERSTANDING</span></h3>
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
@@ -125,7 +122,7 @@ border: 0;
 
 
 <a href="https://github.com/lpirola13/flower-recognizer-app" style="color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">FLOWER RECOGNIZER</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">FLOWER RECOGNIZER</span></h3>
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
@@ -140,7 +137,7 @@ border: 0;
 <br>
 
 <a href="https://github.com/lpirola13/search-engine" style=" color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">SEARCH ENGINE</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">SEARCH ENGINE</span></h3>
 </a>
 <div align="justify">
 <span style=" font-family:Source Code Pro; font-weight:300; color:white;">
@@ -155,7 +152,7 @@ border: 0;
 <br>
 
 <a href="https://github.com/lpirola13/sentiment-analysis" style=" color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">SENTIMENT ANALYSIS</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white; " onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">SENTIMENT ANALYSIS</span></h3>
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
@@ -183,10 +180,14 @@ border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
-<div align="center">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">Find me on</span>
-<a href="https://github.com/lpirola13"><i class="fab fa-github" style="color:white;"></i></a>
-<a href="https://www.linkedin.com/in/lorenzo-pirola-230275197"><i class="fab fa-linkedin" style="color:blue;"></i></a>
-<a href="mailto:lorenzopirola@icloud.com"><i class="fas fa-envelope" style="color:red;"></i></a>
+<div class="row m-1 justify-content-center">
+  <a href="https://github.com/lpirola13"><img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/FIND%20ME%20ON-GitHub-000000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/lorenzo-pirola-230275197"><img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/FIND%20ME%20ON-LinkedIn%20-%230e76a8.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:lorenzopirola@icloud.com"><img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/CONTACT%20ME-Mail%20-%23FF0000.svg?&style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
+
 <br>
+<br>
+<br>
+
+</div>
