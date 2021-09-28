@@ -15,13 +15,13 @@ googleAnalytics = ""  # add your tracking id
     text = "Made with Hugo - Theme By Olivier Roques. Last update August 24th, 2021"
     url = "https://github.com/ojroques/hugo-researcher"
   [params.style]  # appearance options (can be omitted)
-    fontFamily = "'Nunito', sans-serif"
+    fontFamily = "'Source+Code+Pro', sans-serif"
     pageWidth = "750px"
     avatarSize = "90px"
     colorBlack = "#222222"
     colorRed = "#dc3545"
   google_fonts = [
-      ["Nunito", "200, 400, 600, 700"]
+      ["Source+Code+Pro", "300, 400, 600"]
     ]
 
 [permalinks]
