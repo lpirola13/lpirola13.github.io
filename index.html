@@ -30,10 +30,10 @@
  ">    <div class="row pl-3 pt-4 pr-3 w-100 mx-auto">
       <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0 w-100">
         <a class="navbar-brand mx-0 mr-sm-auto" href="https://lpirola13.github.io" title="LORENZO PIROLA">
-          <span style="font-family:Source Code Pro; font-weight:600; color:white;">
+          <span style="font-family:Source Code Pro; font-weight:600; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
           LORENZO
           </span>
-          <span style="font-family:Source Code Pro; font-weight:300; color:white;">
+          <span style="font-family:Source Code Pro; font-weight:300; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
            PIROLA
           </span>
         </a>
@@ -90,14 +90,14 @@
 <br>
 <br>
 <p align="center">
-  <img src="avatar.jpg" width="150px" height="150px" style="border-radius:50%" />
-  <h2 class="pl-3 pr-3" style="text-align: center;"><span style="font-family:Source Code Pro; font-weight:300; color:white;">Hi, I'm</span> <span style="font-family:Source Code Pro; font-weight:400; color:white;">Lorenzo Pirola</span></h2>
+  <img style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2); width: 150px; height: 150px; border-radius: 50%;" src="avatar.jpg"/>
+  <h2 class="pl-3 pr-3" style="text-align: center;"><span style="font-family:Source Code Pro; font-weight:300; color:white;">Hi, I'm</span> <span style="font-family:Source Code Pro; font-weight:400; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">Lorenzo Pirola</span></h2>
 </p>
 <br>
 <br>
 <br>
-<a id="experience" style="text-decoration: none;">
-  <h1 style="text-align: center;">
+<p><a id="experience" style="text-decoration: none;" ></p>
+  <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">EXPERIENCE</span>
   </h1>
 </a>
@@ -120,7 +120,7 @@ border: 0;
 <br>
 <br>
 <a id="education" style="text-decoration: none; color:white;">
-  <h1 style="text-align: center;">
+  <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">EDUCATION</span>
   </h1>
 </a>
@@ -160,7 +160,7 @@ border: 0;
 <br>
 <br>
 <a id="projects" style="text-decoration: none; color:white;">
-  <h1 style="text-align: center;">
+  <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">PROJECTS</span>
   </h1>
 </a>
@@ -169,42 +169,65 @@ border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 <a href="https://github.com/lpirola13/EasySport-Understanding" style=" color:white;">
-  <h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">EASYSPORT-UNDERSTANDING</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">EASYSPORT-UNDERSTANDING</span></h3>
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
-  This application helps you to approach a new sport of which you have no prior knowledge. The knowledge base consists of information extracted from unstructured text retrieved from Reddit. The reasoning is performed by manipulating word embeddings.
+  Wish you could follow a new sport but don't know enough about it? This application allows you to expand your knowledge by using analogies with sports you are familiar with. These analogies are calculated by aligning word embeddings spaces obtained from different text corpora (one for each sport).
 </span>
-</div><br>
+</div>
+<div class="row m-1 justify-content-center">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Streamlit%20-%23EE4D2A.svg?&style=for-the-badge&logo=Streamlit&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Elasticsearch%20-%2312D833.svg?&style=for-the-badge&logo=Elasticsearch&logoColor=white">
+</div>
+<br>
 <a href="https://github.com/lpirola13/flower-recognizer-app" style="color:white;">
-  <h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">FLOWER RECOGNIZER</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">FLOWER RECOGNIZER</span></h3>
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
-  This application allows you to recognize the species of a flower just by taking a picture of it. It is based on a neural network that is built specifically to be fast and lightweight. The application was developed in Flutter, meaning that it is available for both Android and iOS.
+  Have you found a beautiful flower while you were walking and would like to know its species? You can do it using this application, you'll just have to take a picture and wait a few seconds. This application is based on a neural network that is specially built for speed and lightness and is capable of recognizing up to 102 different species. It was developed in Flutter, which means that it is available for both Android and iOS.
 </span>
-</div><br>
+</div>
+<div class="row m-1 justify-content-center">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Flutter-3776AB?style=for-the-badge&logo=flutter&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Firebase%20-%23FF6F00.svg?&style=for-the-badge&logo=firebase&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Tensorflow-EEBF24.svg?&style=for-the-badge&logo=Tensorflow&logoColor=white">
+</div>
+<br>
 <a href="https://github.com/lpirola13/search-engine" style=" color:white;">
-  <h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">SEARCH ENGINE</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">SEARCH ENGINE</span></h3>
 </a>
 <div align="justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">
-  Thanks to this application you can search for useful information inside the content of some Tweets. Apart from performing a basic search, you can customize the results according to the preferences of some predefined users.
+<span style=" font-family:Source Code Pro; font-weight:300; color:white;">
+  This application will help you find relevant information within tweets. Besides a basic search, it offers you the possibility to perform advanced searches and to personalize the results according to the preferences of a set of predefined users. 
 </span>
-</div><br>
+</div>
+<div class="row m-1 justify-content-center">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Elasticsearch%20-%2312D833.svg?&style=for-the-badge&logo=Elasticsearch&logoColor=white)">
+</div>
+<br>
 <a href="https://github.com/lpirola13/sentiment-analysis" style=" color:white;">
-  <h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">SENTIMENT ANALYSIS</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;">SENTIMENT ANALYSIS</span></h3>
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
-  A web application that exploit sentiment analysis to help e-commerce users and product suppliers understand which are the strengths and weaknesses of products sold online.
+  Need to purchase a product but don't want to waste your whole day reading all its reviews? Thanks to this app, you can quickly learn about all the strengths and weaknesses of each product effortlessly. This application identifies what users liked most and least through Sentiment Analysis and uses this information to build quality-summaries for each product.
 </span>
+</div>
+<div class="row m-1 justify-content-center">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Dash%20-%23EE4D2A.svg?&style=for-the-badge&logo=Plotly&logoColor=white">
+  <img class="m-1" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);" src="https://img.shields.io/badge/MADE%20WITH-Elasticsearch%20-%2312D833.svg?&style=for-the-badge&logo=Elasticsearch&logoColor=white">
 </div>
 <br>
 <br>
 <br>
 <a id="contacts" style="text-decoration: none; color:white;">
-  <h1 style="text-align: center;">
+  <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
     <span style="font-family:Source Code Pro; font-weight:600; color:white;">CONTACTS</span>
   </h1>
 </a>
