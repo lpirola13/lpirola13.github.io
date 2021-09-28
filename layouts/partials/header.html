@@ -1,31 +1,27 @@
-    <div class="row pl-3 pt-4 pr-3 w-100 mx-auto">
-      <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0 w-100">
-        <a class="navbar-brand mx-0 mr-sm-auto" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='white'">
-          <span style="font-family:Source Code Pro; font-weight:600; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-          LORENZO
-          </span>
-          <span style="font-family:Source Code Pro; font-weight:300; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-           PIROLA
-          </span>
-        </a>
-        <div class="navbar-nav flex-row flex-wrap justify-content-center float-right">
-            {{ with .Site.Menus.main }}
-                {{ $navbar_len := len . }}
-                {{ range $i, $nav_item := . }}
-                    <a style="color:white;" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
-                      <span style="font-family:Source Code Pro; font-weight:300; color:white; font-size=1px;">
-                        {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
-                      </span>
-                    </a>
-                    <span>&nbsp;&nbsp;&nbsp;</span>
-
-                {{ end }}
+<nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0 w-100 sticky-top" style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
+  <div class="row pl-3 pt-4 pr-3 w-100 mx-auto d-flex align-items-center justify-content-center " style="backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
+    <a class="navbar-brand mx-0 mr-sm-auto" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='white'">
+      <span style="font-family:Source Code Pro; font-weight:600; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
+        LORENZO
+      </span>
+      <span style="font-family:Source Code Pro; font-weight:300; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
+        PIROLA
+      </span>
+    </a>
+    <div class="navbar-nav flex-row flex-wrap justify-content-center float-right">
+        {{ with .Site.Menus.main }}
+            {{ $navbar_len := len . }}
+            {{ range $i, $nav_item := . }}
+                <a style="color:white;" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+                  <span style="font-family:Source Code Pro; font-weight:300; color:white; font-size=1px;">
+                    {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
+                  </span>
+                </a>
+                <span>&nbsp;&nbsp;&nbsp;</span>
             {{ end }}
-        </div>
-    </nav>
-</div>
-<hr width="100%" style="
-border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
+        {{ end }}
+    </div>
+    <hr class="mb-0" width="100%" style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
+  </div>
+</nav>
 
