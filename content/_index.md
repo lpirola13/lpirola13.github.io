@@ -25,6 +25,7 @@ title = "Lorenzo Pirola"
 <hr width="75%" style="
 border: 0;
     height: 1px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 
@@ -53,6 +54,7 @@ border: 0;
 <hr width="75%" style="
 border: 0;
     height: 1px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 
@@ -100,6 +102,7 @@ border: 0;
 <hr width="75%" style="
 border: 0;
     height: 1px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 <a href="https://github.com/lpirola13/EasySport-Understanding" style=" color:white;">
@@ -124,7 +127,7 @@ border: 0;
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
-  Have you found a beautiful flower while you were walking and would like to know its species? You can do it using this application, you'll just have to take a picture and wait a few seconds. This application is based on a neural network that is specially built for speed and lightness and is capable of recognizing up to 102 different species. It was developed in Flutter, which means that it is available for both Android and iOS.
+  Have you spotted a lovely flower while you were walking and you would like to know its species? You can do it using this application: you'll just have to take a picture and wait a few seconds. This application is based on a neural network that is specially built for speed and lightness and it is capable of recognizing up to 102 different species. It was developed in Flutter, which means that it is available for both Android and iOS.
 </span>
 </div>
 <div class="row m-1 justify-content-center">
@@ -139,7 +142,7 @@ border: 0;
 </a>
 <div align="justify">
 <span style=" font-family:Source Code Pro; font-weight:300; color:white;">
-  This application will help you find relevant information within tweets. Besides a basic search, it offers you the possibility to perform advanced searches and to personalize the results according to the preferences of a set of predefined users. 
+  This application will help you to find relevant information within tweets. Besides a basic search, it offers you the possibility to perform advanced searches and to personalize the results according to the preferences of a set of predefined users. 
 </span>
 </div>
 <div class="row m-1 justify-content-center">
@@ -154,7 +157,7 @@ border: 0;
 </a>
 <div align="justify">
 <span style="font-family:Source Code Pro; font-weight:300; color:white;">
-  Need to purchase a product but don't want to waste your whole day reading all its reviews? Thanks to this app, you can quickly learn about all the strengths and weaknesses of each product effortlessly. This application identifies what users liked most and least through Sentiment Analysis and uses this information to build quality-summaries for each product.
+  Need to purchase a product but don't want to waste your whole day reading all its reviews? Thanks to this app, you can quickly learn about all the strengths and weaknesses of each product effortlessly. This application identifies what users liked most and least through Sentiment Analysis and it uses this information to build quality-summaries for each product.
 </span>
 </div>
 <div class="row m-1 justify-content-center">
@@ -175,6 +178,7 @@ border: 0;
 <hr width="75%" style="
 border: 0;
     height: 1px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 <div class="row m-1 justify-content-center">
