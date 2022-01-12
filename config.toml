@@ -29,7 +29,7 @@ googleAnalytics = ""  # add your tracking id
 
 [menu]
   [[menu.main]]
-    name = "EXPERIENCE"
+    name = "WORK EXPERIENCE"
     url = "#experience"
     weight = 1
   [[menu.main]]
