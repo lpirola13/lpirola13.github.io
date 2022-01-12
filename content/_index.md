@@ -19,7 +19,7 @@ title = "Lorenzo Pirola"
 
 <a id="experience" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-    <span style="font-family:Source Code Pro; font-weight:600; color:white;">EXPERIENCE</span>
+    <span style="font-family:Source Code Pro; font-weight:600; color:white;">WORK EXPERIENCE</span>
   </h1>
 
 <hr width="75%" style="
