@@ -8,20 +8,19 @@ googleAnalytics = ""  # add your tracking id
 
 [params]
   author = "Lorenzo Pirola"
-  description = "Computer Science master's degree student at Università degli Studi di Milano Bicocca"
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "Made with Hugo - inspired by Olivier Roques' theme. Last update September 28th, 2021"
+    text = "Made with Hugo - inspired by Olivier Roques' theme. Last update April 2022"
     url = "https://github.com/ojroques/hugo-researcher"
   [params.style]  # appearance options (can be omitted)
-    fontFamily = "'Source+Code+Pro', sans-serif"
+    fontFamily = "'Roboto Mono', sans-serif"
     pageWidth = "750px"
     avatarSize = "90px"
     colorBlack = "#222222"
     colorRed = "#dc3545"
   google_fonts = [
-      ["Source+Code+Pro", "300, 400, 600"]
+      ["Roboto Mono", "300, 400, 600"]
     ]
 
 [permalinks]
