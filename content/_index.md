@@ -2,7 +2,7 @@
 title = "Lorenzo Pirola"
 +++
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 </style>
 
 <br>
@@ -10,7 +10,7 @@ title = "Lorenzo Pirola"
 <br>
 <p align="center">
   <img style="box-shadow: 0 5px 10px rgb(0 0 0 / 0.2); width: 150px; height: 150px; border-radius: 50%;" src="avatar.jpg"/>
-  <h2 class="pl-3 pr-3" style="text-align: center;"><span style="font-family:Source Code Pro; font-weight:300; color:white;">Hi, I'm</span> <span style="font-family:Source Code Pro; font-weight:400; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">Lorenzo Pirola</span></h2>
+  <h2 class="pl-3 pr-3" style="text-align: center;"><span style="font-family:Roboto Mono; font-weight:300; color:white;">HI, I'M</span> <span style="font-family:Roboto Mono; font-weight:400; color:white; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">LORENZO PIROLA</span></h2>
 </p>
 <br>
 <br>
@@ -19,7 +19,7 @@ title = "Lorenzo Pirola"
 
 <a id="experience" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-    <span style="font-family:Source Code Pro; font-weight:600; color:white;">WORK EXPERIENCE</span>
+    <span style="font-family:Roboto Mono; font-weight:600; color:white;">WORK EXPERIENCE</span>
   </h1>
 
 <hr width="75%" style="
@@ -29,14 +29,20 @@ border: 0;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 
-<div class="pl-3 pr-3">
-<h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">TECHNICAL CONSULTANT (INTERNSHIP)</span></h3>
-<span style="font-family:Source Code Pro; font-weight:300; font-style:italic; color:white;">GN Technonomy SRL (BG) | Dec 2019 - Sep 2020</span>
+<div class="pl-3 pr-3 pt-2">
+<h3><span style="font-family:Roboto Mono; font-weight:500; color:white;">ASSOCIATE</span></h3>
+<span style="font-family:Roboto Mono; font-weight:300; font-style:italic; color:white;">PwC Italy (MI) | Mar 2022 - today</span>
+<div class="text-justify pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;"> • API development for data integration</span><br>
+</span>
+</div>
+</div>
+<div class="pl-3 pr-3 pt-2">
+<h3><span style="font-family:Roboto Mono; font-weight:500; color:white;">TECHNICAL CONSULTANT (INTERNSHIP)</span></h3>
+<span style="font-family:Roboto Mono; font-weight:300; font-style:italic; color:white;">GN Technonomy SRL (BG) | Dec 2019 - Sep 2020</span>
 <br>
-<div class="text-justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;"> • Web/Cloud application design & development</span><br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;"> • Relational database design & management</span><br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;"> • Customer consulting</span><br>
+<div class="text-justify pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;"> • Full stack cloud application development</span><br>
 </span>
 </div>
 </div>
@@ -47,7 +53,7 @@ border: 0;
 
 <a id="education" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-    <span style="font-family:Source Code Pro; font-weight:600; color:white;">EDUCATION</span>
+    <span style="font-family:Roboto Mono; font-weight:600; color:white;">EDUCATION</span>
   </h1>
 
 
@@ -58,35 +64,48 @@ border: 0;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 
-<div class="pl-3 pr-3">
-<h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">MASTER’S DEGREE IN COMPUTER SCIENCE</span></h3>
-<div class="text-justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white; font-style:italic;">University of Milano-Bicocca (MI) | 2019 - 2022</span>
+<div class="pl-3 pr-3 pt-2">
+<h3><span style="font-family:Roboto Mono; font-weight:500; color:white;">MASTER’S DEGREE IN COMPUTER SCIENCE</span></h3>
+<div class="text-justify pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white; font-style:italic;">University of Milano-Bicocca (MI) | 2019 - 2022</span>
 <br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">@ Department of Informatics, Systems, and Communication</span>
+<span style="font-family:Roboto Mono; font-weight:300; color:white; font-style:italic;">@ Department of Informatics, Systems, and Communication</span>
+<br>
+<div class="pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;"> Thesis title: “AutoDenoise: Denoise Training Datasets for Fine-grained Entity Typing in the Abscence of Ground Truth Data”</span>
+<br>
+</div>
+<div class="pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">Final grade: 110/110 cum laude</span>
+</div>
 </div><br>
 
-<h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">BACHELOR’S DEGREE IN COMPUTER SCIENCE</span></h3>
-<div class="text-justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white; font-style:italic;">University of Milano-Bicocca (MI) | 2016 - 2019</span>
+<h3><span style="font-family:Roboto Mono; font-weight:500; color:white;">BACHELOR’S DEGREE IN COMPUTER SCIENCE</span></h3>
+<div class="text-justify pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white; font-style:italic;">University of Milano-Bicocca (MI) | 2016 - 2019</span>
 <br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">@ Department of Informatics, Systems, and Communication</span>
+<span style="font-family:Roboto Mono; font-weight:300; color:white; font-style:italic;">@ Department of Informatics, Systems, and Communication</span>
+<div class="pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">Thesis title: “Opinion Leader Detection on Multimedia Sharing Platforms: a Case Study on YouTube and Instagram”</span>
 <br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">Thesis title: “Opinion leader detection on multimedia sharing platforms: a case study on YouTube and Instagram”</span>
-<br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">Final grade: 108/110</span>
+</div>
+<div class="pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">Final grade: 108/110</span>
+</div>
 </div><br>
 
-<h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">TECHNICAL CERTIFICATE</span></h3>
-<div class="text-justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white; font-style:italic;">Istituto tecnico statale F. Viganò (LC) | 2011 - 2016</span>
+<h3><span style="font-family:Roboto Mono; font-weight:500; color:white;">TECHNICAL CERTIFICATE</span></h3>
+<div class="text-justify pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white; font-style:italic;">Istituto tecnico statale F. Viganò (LC) | 2011 - 2016</span>
 <br>
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">Final grade: 94/100</span>
+<div class="pt-1">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">Final grade: 94/100</span>
+</div>
 </div><br>
 
-<h3><span style="font-family:Source Code Pro; font-weight:500; color:white;">FIRST CERTIFICATE IN ENGLISH - B2</span></h3>
+<h3><span style="font-family:Roboto Mono; font-weight:500; color:white;">FIRST CERTIFICATE IN ENGLISH - B2</span></h3>
 <div class="text-justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">Cambridge Assessment English | 2016</span>
+<span style="font-family:Roboto Mono; font-weight:300; color:white; font-style:italic;">Cambridge Assessment English | 2016</span>
 </div>
 <div
 <br>
@@ -96,7 +115,7 @@ border: 0;
 
 <a id="projects" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-    <span style="font-family:Source Code Pro; font-weight:600; color:white;">PROJECTS</span>
+    <span style="font-family:Roboto Mono; font-weight:600; color:white;">PROJECTS</span>
   </h1>
 
 <hr width="75%" style="
@@ -106,10 +125,10 @@ border: 0;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
 
 <a href="https://github.com/lpirola13/EasySport-Understanding" style=" color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">EASYSPORT-UNDERSTANDING</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Roboto Mono; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">EASYSPORT-UNDERSTANDING</span></h3>
 </a>
 <div align="justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">
   Wish you could follow a new sport but don't know enough about it? This application allows you to expand your knowledge by using analogies with sports you are familiar with. These analogies are calculated by aligning word embeddings spaces obtained from different text corpora (one for each sport).
 </span>
 </div>
@@ -123,10 +142,10 @@ border: 0;
 
 
 <a href="https://github.com/lpirola13/flower-recognizer-app" style="color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">FLOWER RECOGNIZER</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Roboto Mono; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">FLOWER RECOGNIZER</span></h3>
 </a>
 <div align="justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">
   Have you spotted a lovely flower while you were walking and you would like to know its species? You can do it using this application: you'll just have to take a picture and wait a few seconds. This application is based on a neural network that is specially built for speed and lightness and it is capable of recognizing up to 102 different species. It was developed in Flutter, which means that it is available for both Android and iOS.
 </span>
 </div>
@@ -138,10 +157,10 @@ border: 0;
 <br>
 
 <a href="https://github.com/lpirola13/search-engine" style=" color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">SEARCH ENGINE</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Roboto Mono; font-weight:500; color:white;" onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">SEARCH ENGINE</span></h3>
 </a>
 <div align="justify">
-<span style=" font-family:Source Code Pro; font-weight:300; color:white;">
+<span style=" font-family:Roboto Mono; font-weight:300; color:white;">
   This application will help you to find relevant information within tweets. Besides a basic search, it offers you the possibility to perform advanced searches and to personalize the results according to the preferences of a set of predefined users. 
 </span>
 </div>
@@ -153,10 +172,10 @@ border: 0;
 <br>
 
 <a href="https://github.com/lpirola13/sentiment-analysis" style=" color:white;">
-  <h3><span style="text-decoration: underline; font-family:Source Code Pro; font-weight:500; color:white; " onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">SENTIMENT ANALYSIS</span></h3>
+  <h3><span style="text-decoration: underline; font-family:Roboto Mono; font-weight:500; color:white; " onMouseOver="this.style.color='#b92b27'" onMouseOut="this.style.color='white'">SENTIMENT ANALYSIS</span></h3>
 </a>
 <div align="justify">
-<span style="font-family:Source Code Pro; font-weight:300; color:white;">
+<span style="font-family:Roboto Mono; font-weight:300; color:white;">
   Need to purchase a product but don't want to waste your whole day reading all its reviews? Thanks to this app, you can quickly learn about all the strengths and weaknesses of each product effortlessly. This application identifies what users liked most and least through Sentiment Analysis and it uses this information to build quality-summaries for each product.
 </span>
 </div>
@@ -172,7 +191,7 @@ border: 0;
 
 <a id="contacts" style="text-decoration: none; top: -120px; display: block; position: relative; visibility: hidden;" ></a>
   <h1 style="text-align: center; text-shadow: 0 5px 10px rgb(0 0 0 / 0.2);">
-    <span style="font-family:Source Code Pro; font-weight:600; color:white;">CONTACTS</span>
+    <span style="font-family:Roboto Mono; font-weight:600; color:white;">CONTACTS</span>
   </h1>
 
 <hr width="75%" style="

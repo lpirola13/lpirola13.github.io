@@ -4,9 +4,7 @@
     {{ if or (.Params.math) (.Site.Params.math) }}
         {{- partial "math.html" . -}}
     {{ end }}
-    <body style="
- background: #b92b27; background: -webkit-linear-gradient(to top, #1565C0, #b92b27);  background: linear-gradient(to top, #1565C0, #b92b27);
- ">
+    <body style="background-image: radial-gradient(circle, #aa3fa0, #ba3a97, #c8368c, #d43481, #dd3575, #e7406a, #ee4e60, #f35c56, #f8744e, #fa8b49, #f9a149, #f5b74e);">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
