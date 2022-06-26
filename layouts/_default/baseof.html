@@ -4,7 +4,7 @@
     {{ if or (.Params.math) (.Site.Params.math) }}
         {{- partial "math.html" . -}}
     {{ end }}
-    <body style="background-image: radial-gradient(circle, #5433ff, #005eff, #007bff, #0092ff, #00a6ff, #00b7fc, #00c5f4, #00d1e8, #00dbc4, #5dde88, #afd844, #ffc500);">
+    <body style="background-color: #FFF6EA;">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
@@ -16,7 +16,5 @@
 
 
 
-
- 
 
 
